@@ -1,0 +1,6 @@
+.back-to-top {
+  cursor: pointer;
+  border-radius: 100px;
+  border: none;
+  box-shadow: 0 5px 8px rgb(64, 22, 177);
+}

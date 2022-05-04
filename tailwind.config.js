@@ -8,6 +8,8 @@ module.exports = {
         'keyboard': "url('./img/keyboard.jpg')",
         'street': "url('./img/street.jpg')",
         'buildings': "url('./img/buildings.jpg')",
+        'code': "url('./img/code.jpg')",
+        'city': "url('./img/city.jpg')",
         'Logo': "url('./img/Logo.jpg')"
         
       },

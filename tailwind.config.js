@@ -17,6 +17,10 @@ module.exports = {
         'banner': '42rem',
         'mobileBanner': '36rem',
         'doudble-grid': '36rem'
+      },
+      blur: {
+        xs: '1px',
+        xxs: '0.5px',
       }
     },
   },

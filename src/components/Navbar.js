@@ -9,7 +9,7 @@ const Navbar = () => {
 
   const showMobileNav = "bg-gray-700 flex flex-col w-full h-full absolute top-28 text-xl transition-all duration-500 ease-in-out bg-opacity-95"
   // const mainMenuNav = "invisible md:visible flex absolute right-0 left-[-500px] md:left-auto"
-  const mainMenuNav = "invisible md:visible flex absolute right-44 gap-x-6"
+  const mainMenuNav = "invisible md:visible flex absolute right-40 gap-x-6"
 
   const navItems = "rounded-md text-indigo-200 font-extrabold hover:bg-indigo-500 md:hover:text-indigo-500 md:hover:bg-gray-800 cursor-pointer py-6 sm:py-0 transition duration-300 ease-in-out"
   const navLinks = "grid place-items-center"
@@ -76,6 +76,11 @@ const Navbar = () => {
                       <Hamburger toggled={isOpen} toggle={setOpen}/> 
                     </div>
                     <ul className={click ? showMobileNav : mainMenuNav}>
+                        <li className={navItems}>
+                            <RouterLink to='/'  smooth={true} duration={1000} className={navLinks} onClick={enableScroll}>
+                              Home
+                            </RouterLink>
+                        </li>
                         <li className={navItems}>
                             <Link to='heroSection'  smooth={true} duration={1000} className={navLinks} onClick={enableScroll}>
                               About

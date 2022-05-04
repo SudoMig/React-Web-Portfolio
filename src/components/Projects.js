@@ -10,7 +10,7 @@ function Projects()  {
             <div className='cards__wrapper '>
                 <ul className='cards__items '>
                      <ProjectItem
-                    src={require('../img/Flow.jpg')}
+                    src={require('../img/VeganFood.jpg')}
                     text='Vegan Recipes'
                     label='Healthy Food'
                     boolean={false}

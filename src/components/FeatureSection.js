@@ -10,7 +10,7 @@ const features = [
   {
     name: 'Stellar Website',
     description:
-      "Websites represent you and your company on the internet. For this reason, I hold substantial value on refining my work. Getting stellar results for my clients is of the utmost importance. ",
+      "Websites represent you and your company on the internet. For this reason, I hold substantial value on refining and improving my work. Getting stellar results for my clients is of the utmost importance. ",
     icon: BsStars,
   },
   {

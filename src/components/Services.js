@@ -23,10 +23,10 @@ export default function Example() {
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:py-16 ">
           <div className="md:ml-auto md:w-1/2 md:pl-10">
-            <h2 className="text-base font-semibold uppercase tracking-wider text-gray-300">Clean Design</h2>
-            <p className="mt-2 text-white text-3xl font-extrabold tracking-tight sm:text-4xl">Clients love it</p>
+            <h2 className="text-base font-semibold uppercase tracking-wider text-gray-300">Clean & simple Design</h2>
+            <p className="mt-2 text-white text-3xl font-extrabold tracking-tight sm:text-4xl">You'll love it!</p>
             <p className="mt-3 text-lg text-gray-300">
-              Always striving for 100% client satisfaction. With your vision and my skills, we'll create your ideal website.</p>
+              Always striving for 100% client satisfaction. I create efficient and attractive sites. With your vision and my skills, we'll create your ideal website.</p>
             <div className="mt-8">
               <div className="inline-flex rounded-md shadow">
                 <Link 

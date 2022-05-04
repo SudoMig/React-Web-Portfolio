@@ -7,7 +7,7 @@ import Hamburger from 'hamburger-react'
 
 const Navbar = () => {
 
-  const showMobileNav = "bg-gray-700 flex flex-col w-full h-full absolute top-28 text-xl transition-all duration-500 ease-in-out bg-opacity-95"
+  const showMobileNav = "bg-gray-700 flex flex-col w-full h-full absolute top-28 text-xl transition-all duration-500 ease-in-out bg-opacity-95 z-50"
   const mainMenuNav = "invisible md:visible flex absolute right-8 md:right-12 lg:right-48 sm:right-48 gap-x-6"
 
   const navItems = "rounded-md text-indigo-200 font-extrabold hover:bg-indigo-500 md:hover:text-indigo-500 md:hover:bg-gray-800 cursor-pointer py-6 sm:py-0 sm:transition sm:duration-300 sm:ease-in-out"

@@ -35,7 +35,7 @@ const logoName = "flex h-12 text-gray-400 text-xl sm:text-3xl space-x-2"
                   </h1>
                   <p className='mt-4 max-w-lg mx-auto text-center text-xl text-indigo-100 sm:max-w-3xl'>Front-end Developer </p>
                   <p className="mt-1 max-w-lg mx-auto text-center text-xl text-indigo-100 sm:max-w-3xl">
-                  Confident in bringing your envisioned website to reality utilising the most recent Web technologies. 
+                  Bringing your envisioned website to reality utilising the most recent Web technologies. 
                   </p>
                   <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
                     <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">

@@ -13,7 +13,6 @@ function Projects()  {
                     src={require('../img/Flow.jpg')}
                     text='Vegan Recipes'
                     label='Healthy Food'
-                    path=''
                     boolean={false}
                     commingSoon='Coming Soon'
                     />
@@ -28,7 +27,6 @@ function Projects()  {
                     src={require('../img/Nature.jpg')}
                     text='Canadian Trails Sights'
                     label='Travel Site'
-                    path=''
                     boolean={false}
                     commingSoon='Coming Soon'
                     />

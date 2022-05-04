@@ -5,7 +5,7 @@ function ProjectItem(props) {
   return (
     <>
      <li className='cards__item'>
-       <Link className='cards__item__link ' to={props.path}>
+       <a className='cards__item__link' href={props.path} target="_blank" rel="noreferrer">
          <figure className='cards__item__pic-wrap' data-category={props.label}>
          { props.boolean
          ?
@@ -25,7 +25,7 @@ function ProjectItem(props) {
           <div className='py-6 px-4'>
             <h5 className='cards__item__text font-bold text-indigo-200'>{props.text}</h5>
           </div>
-       </Link>
+       </a>
      </li>
     </>
   )

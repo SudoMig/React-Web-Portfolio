@@ -10,11 +10,6 @@ module.exports = {
         'buildings': "url('./img/buildings.jpg')",
         'Logo': "url('./img/Logo.jpg')"
         
-
-        
-
-        
-        
       },
       height: {
         'banner': '42rem',

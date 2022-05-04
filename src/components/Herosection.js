@@ -35,20 +35,20 @@ const logoName = "flex h-12 text-gray-400 text-xl sm:text-3xl space-x-2"
                   </h1>
                   <p className='mt-4 max-w-lg mx-auto text-center text-xl text-indigo-100 sm:max-w-3xl'>Front-end Developer </p>
                   <p className="mt-1 max-w-lg mx-auto text-center text-xl text-indigo-100 sm:max-w-3xl">
-                  confidence in brining your envisoned website to reality using the Web lastest Technologies. 
+                  Confident in bringing your envisioned website to reality utilising the most recent Web technologies. 
                   </p>
                   <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
                     <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
                       <Link
                         to="ProjectSection"
-                        className="flex items-center justify-center px-4 py-3 border border-transparent text-lg font-semibold rounded-md shadow-md text-indigo-700 bg-indigo-50 hover:bg-transparent hover:text-white hover:border-indigo-700 ring-2 hover:ring-white sm:px-8 cursor-pointer hvr-fade'
+                        className="flex items-center justify-center px-4 py-3 border border-transparent text-lg font-semibold rounded-md shadow-md text-indigo-700 bg-indigo-50 hover:bg-transparent hover:text-white hover:border-indigo-700 ring-2 hover:ring-white sm:px-8 cursor-pointer hvr-fade '
                         smooth={true} duration={1000}"
                         smooth={true} duration={1000}
                       >
                         Projects
                       </Link>
                       <Link 
-                      className='flex items-center justify-center px-4 py-3 border border-solid border-indigo-700 text-lg font-semibold rounded-md shadow-md text-indigo-100 bg-indigo-700 bg-opacity-60 hover:text-white hover:bg-opacity-100 hover:ring-2 hover:ring-indigo-700 sm:px-8 cursor-pointer hvr-fade' 
+                      className='flex items-center justify-center px-4 py-3 border border-solid border-indigo-700 text-lg font-semibold rounded-md shadow-md text-indigo-100 bg-indigo-700 bg-opacity-60 hover:text-white hover:bg-opacity-100 hover:ring-2 hover:ring-indigo-700 sm:px-8 cursor-pointer hvr-fade ' 
                       to='contactForm'
                       smooth={true} duration={1000}
                       >

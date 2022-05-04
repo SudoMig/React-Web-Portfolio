@@ -5,10 +5,6 @@ import { useEffect } from "react";
 import Home from './components/pages/Home'
 import Contact from './components/pages/Contact'
 import 'animate.css'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-AOS.init();
-
 
 function App() {
 

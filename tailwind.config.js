@@ -3,10 +3,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'sunset': "url('./img/sunset.jpg')",
+        'space': "url('./img/space.jpg')",
         'flow': "url('./img/Flow.jpg')",
-        'idea': "url('./img/idea.jpg')",
-        'spiral': "url('./img/spiral.jpg')",
+        'keyboard': "url('./img/keyboard.jpg')",
+        'street': "url('./img/street.jpg')",
         'buildings': "url('./img/buildings.jpg')",
         'Logo': "url('./img/Logo.jpg')"
         

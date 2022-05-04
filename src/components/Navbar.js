@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import { Link as RouterLink } from 'react-router-dom';
 import {Link } from 'react-scroll'
-import Logo from '../svg/LogoRound1.svg'
+import Logo from '../svg/SimpleLogo.svg'
 import './App.css'
 import Hamburger from 'hamburger-react'
 

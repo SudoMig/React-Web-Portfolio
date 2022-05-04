@@ -10,19 +10,19 @@ const features = [
   {
     name: 'Stellar Website',
     description:
-      "Websites are you and your companies face on the internet. For this reason I hold substantial value refining my work. Yeilding stellar results for my clients is of utmost imporance. ",
+      "Websites represent you and your company on the internet. For this reason, I hold substantial value on refining my work. Getting stellar results for my clients is of the utmost importance. ",
     icon: BsStars,
   },
   {
     name: 'Client Satisfaction',
     description:
-      "I genuinely care about my clients and their satisfaction. I consdier it a privilege to work alongside my clients, brining their envisoned website to reality.",
+      "I genuinely care about my clients and their satisfaction. I consider it a privilege to work alongside my clients, bringing their envisioned website to reality.",
     icon: BiHappyHeartEyes,
   },
   {
     name: 'Clean Design',
     description:
-      "I love creating clean, elegant and modern designs patterns. Building simple conent structure with touches of subtle animations.",
+      "I love creating clean, elegant, and modern design patterns. Building simple content structures with subtle animation.",
     icon: MdCleanHands,
   },
 ]

@@ -6,7 +6,7 @@ function Projects()  {
   return (
     <div className='sm:p-4 bg-gray-800 sm:bg-gray-900' id='ProjectSection'>
         <h1 className='text-center text-3xl font-semibold text-indigo-100 pt-10'>My Recent Projects</h1>
-        <div className='cards__container'>
+        <div className='w-10/12 sm:w-2/3 cards__container'>
             <div className='cards__wrapper '>
                 <ul className='cards__items '>
                      <ProjectItem

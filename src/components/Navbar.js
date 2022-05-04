@@ -8,7 +8,7 @@ import Hamburger from 'hamburger-react'
 const Navbar = () => {
 
   const showMobileNav = "bg-gray-700 flex flex-col w-full h-full absolute top-28 text-xl transition-all duration-500 ease-in-out bg-opacity-95"
-  const mainMenuNav = "invisible md:visible flex absolute right-48 gap-x-6"
+  const mainMenuNav = "invisible md:visible flex absolute right-8 md:right-12 lg:right-48 sm:right-48 gap-x-6"
 
   const navItems = "rounded-md text-indigo-200 font-extrabold hover:bg-indigo-500 md:hover:text-indigo-500 md:hover:bg-gray-800 cursor-pointer py-6 sm:py-0 sm:transition sm:duration-300 sm:ease-in-out"
   const navLinks = "grid place-items-center"
@@ -64,9 +64,9 @@ const Navbar = () => {
         <div className='max-w-7xl mx-auto py-14' >
             <div className="flex items-center justify-between">
                 <div className='flex items-center' >
-                  <RouterLink to='/' smooth={true} duration={500} className='absolute left-8 sm:left-48 cursor-pointer' onClick={logoClicked} >                    
+                  <RouterLink to='/' smooth={true} duration={500} className='absolute left-8 md:left-12 lg:left-48 cursor-pointer' onClick={logoClicked} >                    
                     <img
-                      className={clickLogo ? 'w-10 h-10 sm:w-12 sm:h-12 rotate-center' : 'w-10 h-10 sm:w-12 sm:h-12'}
+                      className={clickLogo ? 'w-10 h-10 md:w-12 md:h-12 rotate-center' : 'w-10 h-10 md:w-12 md:h-12'}
                       src={Logo}
                       alt="Logo"
                     />

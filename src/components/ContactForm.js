@@ -32,7 +32,7 @@ const ContactForm = () => {
             <h2 className="text-2xl font-extrabold tracking-tight text-white sm:text-3xl">Get in touch</h2>
             <div className='space-y-0.5'>
               <p className="flex mt-3 text-lg leading-6 text-indigo-50 cursor-text">
-                Simply have a question 
+                Have a question 
                 <RiQuestionMark className=' mt-0.5'/>
               </p>
               <p className="text-lg leading-6 text-indigo-50">

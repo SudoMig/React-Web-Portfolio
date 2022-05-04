@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function ProjectItem(props) {
   return (
     <>
-     <li className='flex flex-1 sm:my-4 sm:mx-4 sm:mb-0 mb-4'>
+     <li className='flex flex-1 sm:my-4 sm:mx-4 sm:mb-0 mb-6'>
        <a className='cards__item__link' href={props.path} target="_blank" rel="noreferrer">
          <figure className='cards__item__pic-wrap' data-category={props.label}>
          { props.boolean

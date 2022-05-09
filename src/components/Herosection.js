@@ -11,7 +11,7 @@ import './App.css'
 
 const Herosection = () => {
 
-const logoName = "flex h-12 text-gray-400 text-xl sm:text-3xl space-x-2"
+const logoName = "flex h-12 text-gray-100 text-xl sm:text-3xl space-x-2"
 
   return (
     <div className='pt-0 sm:pt-28 bg-gray-900' id="heroSection">

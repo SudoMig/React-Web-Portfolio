@@ -1,9 +1,8 @@
 import React from "react";
 import Navbar from './components/Navbar';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import { useEffect } from "react";
 import Home from './components/pages/Home'
-import Contact from './components/pages/Contact'
+// import Contact from './components/pages/Contact'
 import 'animate.css'
 
 function App() {

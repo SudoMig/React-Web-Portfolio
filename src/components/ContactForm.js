@@ -1,7 +1,5 @@
 import './App.css'
 import { MailIcon, PhoneIcon } from '@heroicons/react/outline'
-import {GrLinkedin,GrGithub} from 'react-icons/gr'
-import {RiQuestionMark} from 'react-icons/ri'
 import { useState } from 'react'
 
 const FORM_ENDPOINT = "https://public.herotofu.com/v1/94655b00-cb2d-11ec-a557-034a17e2da28";
@@ -32,11 +30,10 @@ const ContactForm = () => {
             <h2 className="text-2xl font-extrabold tracking-tight text-white sm:text-3xl">Get in touch</h2>
             <div className='space-y-0.5'>
               <p className="flex mt-3 text-lg leading-6 text-indigo-50 cursor-text">
-                Have a question 
-                <RiQuestionMark className=' mt-0.5'/>
+                Have a question?
               </p>
               <p className="text-lg leading-6 text-indigo-50">
-                Need help building a website or want it build for you? Send me an email!
+                Need help building a website or want it built for you? Send me an email!
               </p>
             </div>
             <dl className="mt-6 text-base text-indigo-50">
